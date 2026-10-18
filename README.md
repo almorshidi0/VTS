@@ -54,32 +54,32 @@
 
 ## System Use Case Diagram
 
-[](Use Case Diagram.png)
+![Use Case Diagram](Use Case Diagram.png)
 
 ## The Manage Time Use Case
 
 - Entity Relationships Diagram
-[ER Diagram](ER Diagram.png)
+![ER Diagram](ER Diagram.png)
 - Relational Date Model
-[Relational Data Model](Relational Data Model.png)
+![Relational Data Model](Relational Data Model.png)
 - Sequence Diagrams
 	- Main Flow
-	[Main Flow Sequence Diagram](Main Flow Sequence Diagram.png)
+	![Main Flow Sequence Diagram](Main Flow Sequence Diagram.png)
 	- Alternate Flow: Withdraw Request
-	[Withdraw Alternate Flow Sequence Digram](Withdraw Alternate Flow Sequence Digram.png)
+	![Withdraw Alternate Flow Sequence Digram](Withdraw Alternate Flow Sequence Digram.png)
 	- Alternate Flow: Cancel Approved Request
-	[Cancel Alternate Flow Sequence Diagram](Cancel Alternate Flow Sequence Diagram.png)
+	![Cancel Alternate Flow Sequence Diagram](Cancel Alternate Flow Sequence Diagram.png)
 	- Alternate Flow: Edit Pending Request
-	[Edit Alternate Flow Sequence Diagram](Edit Alternate Flow Sequence Diagram.png)
+	![Edit Alternate Flow Sequence Diagram](Edit Alternate Flow Sequence Diagram.png)
 - Flow Charts
 	- Main Flow
-	[Main Flow Chart](Main Flow Chart.png)
+	![Main Flow Chart](Main Flow Chart.png)
 	- Alternate Flow: Withdraw Request
-	[Withdraw Alternate Flow Chart](Withdraw Alternate Flow Chart.png)
+	![Withdraw Alternate Flow Chart](Withdraw Alternate Flow Chart.png)
 	- Alternate Flow: Cancel Approved Request
-	[Cancel Alternate Flow Chart](Cancel Alternate Flow Chart.png)
+	![Cancel Alternate Flow Chart](Cancel Alternate Flow Chart.png)
 	- Alternate Flow: Edit Pending Request
-	[Edit Alternate Flow Chart](Edit Alternate Flow Chart.png)
+	![Edit Alternate Flow Chart](Edit Alternate Flow Chart.png)
 - Pseudocode
 ```
 
