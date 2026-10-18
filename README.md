@@ -82,5 +82,45 @@
 	![Edit Alternate Flow Chart](Edit%20Alternate%20Flow%20Chart.png)
 - Pseudocode
 ```
-
+navigateToVTS() {
+	lookUpRequestsAndBalances();
+	displayRequestsAndBalances();
+	if(isManager) {
+		lookUpPendingRequests();
+		displayPendingRequests();
+	}
+	if(userWantstoMakeRequest) {
+		while(!requestDetailsAreCompleteAndValid) {
+			if(newRequest) {
+				promptForCategory();
+				promptForRequestDetails();
+			} else {
+				displayEditableViewHighlightingErrors();
+				if(userCansels) {
+					break;
+				}
+			}
+		}
+		if(requestDetailsAreCompleteAndValid) {
+			if(requestRequiresApproval) {
+				recordInDbAsPending();
+				sendEmailToManager()
+			} else {
+				recordInDbAsApproved();
+			}
+		}
+		returnToHomePage();
+	}
+	if(isManager && managerSelectsARequestToApprove) {
+		displayRequestDetails();
+		if(approved) {
+			changeRecordStateToApproved();
+		} else {
+			promptForExplanation();
+			changeRecordStateToDisapproved();
+		}
+		sendEmailToEmployee();
+		returnToHomePage();
+	}
+}
 ```
