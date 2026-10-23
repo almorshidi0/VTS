@@ -7,9 +7,9 @@
 In the new data model, request state is modeled as a separate table to facilitate extension.
 
 - Entity Relationships Diagram
-![ER Diagram](Mentorship/VTS/Task2/ER%20Diagram.png)
+![ER Diagram](ER%20Diagram.png)
 - Relational Data Model
-![Relational Data Model](Mentorship/VTS/Task2/Relational%20Data%20Model.png)
+![Relational Data Model](Relational%20Data%20Model.png)
 
 ## Request State Machine
 
@@ -80,6 +80,7 @@ navigateToVTS() {
 - Flowchart
 ![Edit Alternate Flow Chart](Edit%20Alternate%20Flow%20Chart.png)
 - Sequence Diagram
+
 ![Edit Alternate Flow Sequence Diagram](Edit%20Alternate%20Flow%20Sequence%20Diagram.png)
 - Pseudocode
 ```
