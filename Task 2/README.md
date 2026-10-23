@@ -7,9 +7,9 @@
 In the new data model, request state is modeled as a separate table to facilitate extension.
 
 - Entity Relationships Diagram
-![Mentorship/VTS/Task 2/ER Diagram](Mentorship/VTS/Task%202/ER%20Diagram.png)
+![ER Diagram](ER%20Diagram.png)
 - Relational Data Model
-![Mentorship/VTS/Task 2/Relational Data Model](Mentorship/VTS/Task%202/Relational%20Data%20Model.png)
+![Relational Data Model](Relational%20Data%20Model.png)
 
 ## Pseudocode
 
@@ -34,7 +34,7 @@ In the new data model, request state is modeled as a separate table to facilitat
 - Flowchart
 ![Withdraw Alternate Flow Chart](Withdraw%20Alternate%20Flow%20Chart.png)
 - Sequence Diagram
-![Withdraw Alternate Flow Sequence Digram](Withdraw%20Alternate%20Flow%20Sequence%20Digram.png)
+![Withdraw Alternate Flow Sequence Diagram](Withdraw%20Alternate%20Flow%20Sequence%20Digram.png)
 
 ## Alternate Flow: Cancel Approved Request
 
