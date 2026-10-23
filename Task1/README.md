@@ -48,9 +48,9 @@
 ## The Manage Time Use Case
 
 - Entity Relationships Diagram
-![ER Diagram](ER%20Diagram.png)
+![ER Diagram](Mentorship/VTS/Task1/ER%20Diagram.png)
 - Relational Date Model
-![Relational Data Model](Relational%20Data%20Model.png)
+![Relational Data Model](Mentorship/VTS/Task1/Relational%20Data%20Model.png)
 - Sequence Diagrams
 	- Main Flow
 	![Main Flow Sequence Diagram](Main%20Flow%20Sequence%20Diagram.png)
@@ -72,6 +72,7 @@ navigateToVTS() {
 			if(newRequest) {
 				promptForCategory();
 				promptForRequestDetails();
+				requestDetailsAreCompleteAndValid = true;
 			} else {
 				displayEditableViewHighlightingErrors();
 				if(userCansels) {
